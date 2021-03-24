@@ -1,0 +1,78 @@
+h1{
+    color: #b2003f;
+    border:10px solid #000000;
+    background-color: #000000;
+}
+body{
+    background-color: #db7093;
+    margin: 0px;
+}
+img{
+    border:5px solid black;
+    border-radius: 40px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.header{
+    display:flex;
+    justify-content : space-between;
+    background-color: #b2003f;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(211, 9, 117);
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 100px;
+}
+.bodyimg1:hover{
+    border-radius: 50px;
+    background-color: #db7093;
+    width: 310px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin: 25px;
+    transform:scale(1.4);
+}
+.menu{
+    display: flex;
+    justify-content : space-between;
+    background-color:#b2003f;
+    padding: 17px;
+    font-size: 21px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #741b47
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+.bodyimg1{
+    position: relative;
+}
+.bodyimg1 p{
+    position: absolute;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    transform: translate(-40%,-40%);
+    top: 40%;
+    left: 45%;
+}
+.bodyimg1 h3{
+    position: absolute;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    transform: translate(-40%,-40%);
+    top: 40%;
+    left: 45%;
+}
